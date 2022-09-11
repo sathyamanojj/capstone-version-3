@@ -1,0 +1,17 @@
+<suite name="Regression Suite">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://www.amazon.in"></parameter>
+	 <parameter name="validUsername" value="sathyashakthi9@gmail.com"></parameter>
+		<parameter name="validPassword" value="validpassword123"></parameter>
+		<parameter name="invalidUsername" value="invalid-dan@gmail.com"></parameter>
+		<parameter name="invalidPassword" value="invalid-test1234"></parameter>   
+		
+	
+	<test thread-count="5" name="Testclass1">
+		<classes>
+			<class name="tests.BasicValidation_Testclass1"></class>
+		</classes>
+	</test>
+	
+	
+</suite> <!-- Regression Suite -->
